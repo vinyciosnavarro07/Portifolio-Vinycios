@@ -1,0 +1,71 @@
+@media screen and (max-width: 900px) {
+    .menu{
+        display: none;
+    }
+
+    .sobre__conteudo{
+        padding: 3.5rem;
+    }
+
+    .formacao__conteudo{
+        display: flex;
+    }
+
+    .formacao__lista{
+        width: 140px;
+    }
+
+    .projetos__conteudo{
+        display: flex;
+        flex-direction: column;
+        padding: 3.5rem;
+    }
+
+    .projetos__imagem {
+        width: 500px;
+        height: 300px;
+    }
+
+    .projetos__informacoes{
+        padding-top: 3.5rem;
+    }
+
+    .soft-skills__bloco{
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .formacao__lista{
+        width: 100px;
+    }
+
+    .projetos__imagem {
+        width: 400px;
+        height: 200px;
+    }
+
+    .skills__conteudo{
+        padding: 3.5rem;
+    }
+
+    .soft-skills__conteudo{
+        padding: 3.5rem;
+    }
+
+    .soft__skills__bloco{
+        width: 50px;
+    }
+
+    .soft-skills__nome{
+        font-size: 15px;
+    }
+
+    .hobbies__conteudo{
+        padding: 1.5rem;
+    }
+
+    .hobbies__bloco{
+        width: 80pxpx;
+    }
+}
